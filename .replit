@@ -1,0 +1,15 @@
+ 
+ entrypoint = "lib/client.js"
+ modules = ["nodejs-18:v3-20230608-f4cd419"]
+ hidden = [".config", "package-lock.json"]
+
+ [nix]
+ channel = "stable-23_05"
+
+ [deployment]
+ run =  "npm install -g npm@latest &&npm i pm2 --location=global &&npm start "
+ deploymentTarget = "cloudrun"
+ ignorePorts = false
+
+ [unitTest]
+ language = "nodejs"

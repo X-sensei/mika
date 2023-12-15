@@ -1,0 +1,6 @@
+build:
+  docker:
+      worker: /lib/Dockerfile
+      run: npm install --save deepai
+run:
+   worker: npm start

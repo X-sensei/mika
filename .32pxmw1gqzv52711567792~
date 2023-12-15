@@ -1,0 +1,113 @@
+{
+  "name": "Mikasa-Bot-Rodent-Edition",
+  "description": "A Whatsapp md bot built by Ronen-Bots to make experience better",
+  "logo": "https://wallpaperaccess.com/full/1309130.jpg72656e6465722e636f6d2f6d61696e2e6a7067",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "Secktor","SecktorMD","theme bot","multi device","baileys","Sam Pandey"],
+  "success_url": "/",
+  "stack": "container",
+"env": {
+  "OWNER_NAME": {
+  "description": "Name of Bot Owner",
+      "value": "Ronen🎐"
+  },
+  "ALIVE_MESSAGE": {
+    "description": "Alive message for bot",
+     "required" :false
+    },
+    "AUTO_STATUS_SAVER": {
+      "description": "Automatically saves status of every person and sends in log number.",
+       "required" :false
+      },
+    "HEROKU_API_KEY": {
+    "description": "Put HEROKU API KEY",
+     "required" :true,
+	    "value" : "51493452-b04a-4c16-aed3-00280fe5c903"
+    },
+  "HEROKU_APP_NAME": {
+    "description": "Put HEROKU APP NAME same as above.",
+     "required" :true
+    },
+   "THUMB_IMAGE": {
+    "description": "THUMBNAIL for bot.",
+     "value": "https://wallpaperaccess.com/full/4939220.jpg"
+    },
+    "ANTI_BAD_WORD": {
+    "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
+     "required" :false
+    },
+   "ANTILINK_VALUES": {
+    "description": "Put words for antilink",
+     "value": "chat.whatsapp.com,fb.com,instagram.com",
+     "required" :false
+    },
+     "ANTILINK_ACTION": {
+    "description": "Put action for antilink",
+     "value": "delete",
+     "required" :false
+    },
+  "LEVEL_UP_MESSAGE": {
+    "description": "Fill the value true if you want bot send Level up message in chat.",
+     "required" :false,
+     "value": "false"
+    },
+      "READ_MESSAGE": {
+    "description": "Fill the value true if you want bot to read all messages.",
+     "required" :false,
+     "value": "false"
+    },
+   "DISABLE_PM": {
+    "description": "Disable bot in pm",
+     "required" :false
+    },
+      "PREFIX": {
+  "description": "Enter your desired prefix for bot.",
+      "value": "."
+  },
+  "OWNER_NUMBER": {
+    "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+       "value": "916000530073"
+  },
+   "SESSION_ID": {
+    "description": "Please put your SESSION_ID here",
+	   "value" :"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0Z2enEzdWR1TGdHWEIxNktXZTZpRXZYL25nZm10THJVMGVaYUpEdE4wQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQVhmYzVlMi9ycWVnTFJ1TzNDUWtSeVB0NDNyUWs5WkhrVjRYK0l4SzQyVT0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPRDNCM3d3T09IVFRiMXk2UmRaWlNsYWJhemxXVmJzSDlMNDA5NnJ1Ym1NPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJNbTJIbGJXcVNMU3E3K1JFTzd1N3VEY05iK2VFWUY2aUE3anMvM1ViNzMwPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IitBUmhIWXBjelI3MXdSSlMrSEp4SzZseVZ3ZWVIUzk0THdjUVZaZExOWHc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkZ3NEUrZFhJUWIwVmh6K2NjQk12M1VVQ0VFRGpNdWpVcWRzR1c4U2VJbkU9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIwTWVXc3J4Wk42Y2o2K0FTY1NsUFRkazRPdEY1OVQrc1BNV2NLVUVXOHRBbHVaT3lmVHVETDFGWmllTlJKRDJHVFduNk1nSWNCU3d0Z1crMVR1VXVodz09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjU4LCJhZHZTZWNyZXRLZXkiOiJ3L0hqTkpvU3BHUkR2VGMwZnBSMEJNbVZDZTZDbGJkUTU0WEhJc0hneStRPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJ5ZkhyZjhUelRoQ3RZTzZ5U3Jtb1BBIiwicGhvbmVJZCI6IjU1NGFlOTBlLTBjZjItNGQ4OS1hMTU5LTJjODM3YmQ2NTA3ZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJMVWNCSHRKa0dYK1ZiTktUVGRubjNZVjRjcVk9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImQrZ3FoaVBiTWxzTHQ2SVh0S09OQnA2U0F3Zz0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ08zcHFQb0RFSStxeWFVR0dBRT0iLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiQ2VxM3dwVnNIaUs3RnNwcEdQYzlSaDNqRHRRU2pPODd3RHpZYk1qeXpUQT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiNnNheGpBYSs2QjJVNHRER3F1dG5qR2pGQlkwTmxHME9JbFo4VkNjYWFQeEphaHljNGI0aDVTd0FHL0dQNGs1KzdLcUpxSlBUNG5LWERaNW9ncm90QVE9PSIsImRldmljZVNpZ25hdHVyZSI6Im0zMGd3MmNFVUN1dFlEWEo2b2RKQUN3cUNwRzRYYWlYVUVHbnRZMGkveCtFeXMwRjM2V1EycE1mWkpzbWVSUkx2dzNUb0hkdURONHF5M3lMSGphemp3PT0ifSwibWUiOnsiaWQiOiIxNDQwNDQ0NTkyMzo2QHMud2hhdHNhcHAubmV0IiwibmFtZSI6Ik1pa2FzYSBCb3Twn5KXIn0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjE0NDA0NDQ1OTIzOjZAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUW5xdDhLVmJCNGl1eGJLYVJqM1BVWWQ0dzdVRW96dk84QTgyR3pJOHMwdyJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTY4OTQwODc4NCwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFOQUUifQ=="
+  },
+    "OPENAI_API_KEY": {
+    "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
+       "value": "Replace Me(optional)",
+       "required" :false
+  },
+  "MONGODB_URI": {
+    "description": "A secret String for Mongodb Connection.(Required),change for better experience",
+    "value": "mongodb+srv://whatyo435:bc31443f@cluster0.mo4uyuc.mongodb.net/?retryWrites=true&w=majority"
+  },
+    "THEME": {
+    "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
+     "value": "SECKTOR"
+  },
+    "WORKTYPE": {
+  "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
+         "value": "public"
+  },
+      "AUTO_REACTION": {
+    "description": "Reacts emoji to all commands.",
+     "value": "true",
+     "required": false 
+  },
+  "PACK_INFO": {
+    "description": "Put packname;authorname.",
+     "value": "Ronen-Bots;Mikasa💗",
+     "required": false 
+  },
+  "heroku": {
+    "description": "Weather it is on heroku or not",
+     "value": "true",
+     "required": false 
+  }
+},
+"formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
+		}
+	}
+}

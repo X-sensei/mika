@@ -1,0 +1,55 @@
+{
+  "__JSON__": true,
+  "AUTHOR": "Ronen",
+  "LANGUAGE": "English",
+  "LANGCODE": "en",
+  "STRINGS": {
+      "updater": {
+          "UPDATE": "*Your bot is already on latest version Sir*",
+          "NEW_UPDATE": "*There is a new update available for the bot!*\n\n*Changes:*\n",
+          "UPDATED_LOCAL": "*Successfully Updated!*"
+      },
+      "global": {
+          "botName": " Powered by Ronen-Bots",
+          "body": "𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 𝐵𝑜𝑡",
+          "greet2" : "Sir",
+          "pic1": "https://wallpaperaccess.com/full/343557.jpg",
+          "pic2": "https://wallpapercave.com/wp/wp8939959.jpg",
+          "pic3": "https://wallpaperaccess.com/full/1309130.jpg",
+          "pic4": "https://wallpaperaccess.com/full/4938426.jpg",
+          "pic5": "https://wallpaperaccess.com/full/3750263.jpg",
+          "pic6": "https://wallpaperaccess.com/full/4938942.jpg",
+          "pic7": "https://wallpaperaccess.com/full/4939220.jpg",
+           "greet" : "Kiddo",
+         "dotbody" : "I'm Alive.",
+          "promote": "Admin Role Given to my Darling",
+          "pmallow": "*Hii,This is Mikasa💗*\n*An assistant of My Master.*\nMy Master is busy right now.\nKindly Leave your Message.\n\n_I will inform him about your message asap......_",
+          "pmblock": "❌ Blocked*\n\n You have been blocked for spamming.\n\n _ Powered by RONEN-BOTS_",
+          "pmwarn": "✋Konichiwa!* \nDon't spamm or else I'll block you for spamming. _You have ${checkPermit.times} warning(s)._\n\n *Powered by RONEN-BOTS*",
+          "permited": "Konichiwa! ${tname}*\n\nNow You are permitted by my owner to pm now.\n\n *Powered by RONEN-BOTS", 
+          "revoked" : "*Konichiwa! ${tname}*\n\nYour pm permit permission has been prevoked now.\n\n _Powered by RONEN-BOTS_",
+          "demote": "Opps, Seems like someone got demoted💀",
+          "antlink": "_⚠️Link Detected⚠️_.\n*You'll be removed for sending links in this group. Sayonara...*",
+          "session": "\n*This is your session.sam.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*Powered by RONEN-BOTS*",
+          "mention": " Please mention any user",
+          "title": "Mikasa💗",
+          "footer": "Mikasa💗",
+          "by": "Powered by: *RONEN-BOTS*",
+          "chat_desc": "Options Available* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+          "success": "Done ✔️",
+          "dot": "No such command baka! Type *.help* to get my command list",
+          "couple_male": "*For Him...*",
+          "couple_female": "*For Her...*",
+          "admin": "𝑇ℎ𝑖𝑠 𝑐𝑜𝑚𝑚𝑎𝑛𝑑 𝑖𝑠 𝑜𝑛𝑙𝑦 𝑓𝑜𝑟 𝑔𝑟𝑜𝑢𝑝 𝐴𝑑𝑚𝑖𝑛⚠️!",
+          "botAdmin": "𝑃𝑙𝑒𝑎𝑠𝑒 𝑃𝑟𝑜𝑣𝑖𝑑𝑒 𝑚𝑒 𝐴𝑑𝑚𝑖𝑛 𝑅𝑜𝑙𝑒.❗",
+          "owner": "𝐓𝐡𝐢𝐬 𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐢𝐬 𝐨𝐧𝐥𝐲 𝐟𝐨𝐫 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ⚠️",
+          "group": "𝑻𝒉𝒊𝒔 𝑭𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒔 𝑶𝒏𝒍𝒚 𝑭𝒐𝒓 𝑮𝒓𝒐𝒖𝒑𝒔❗",
+          "private": "𝑻𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒏 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒕𝒉𝒆 𝐌𝐲 𝐎𝐰𝐧𝐞𝐫 ⚠️",
+          "bot": "𝑻𝒉𝒊𝒔 𝒇𝒆𝒂𝒕𝒖𝒓𝒆 𝒊𝒏 𝒐𝒏𝒍𝒚 𝒇𝒐𝒓 𝒕𝒉𝒆 𝒃𝒐𝒕 𝒏𝒖𝒎𝒃𝒆𝒓⚠️",
+          "wait": "𝑷𝒓𝒐𝒄𝒆𝒔𝒔𝒊𝒏𝒈 𝒚𝒐𝒖𝒓 𝒓𝒆𝒒𝒖𝒆𝒔𝒕✅" 
+      },
+      "error": {
+          "text": "*Uhh,Got an Error*"
+      }
+  }
+}

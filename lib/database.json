@@ -1,0 +1,28 @@
+{
+  "sticker": {},
+  "database": {},
+  "game": {},
+  "others": {
+    "vote": []
+  },
+  "users": {
+    "263780552467@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    },
+    "13234541422@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": ""
+    }
+  },
+  "chats": {
+    "120363039573547363@g.us": {
+      "mute": false,
+      "wame": false
+    },
+    "13234541422@s.whatsapp.net": {
+      "mute": false,
+      "wame": false
+    }
+  }
+}
